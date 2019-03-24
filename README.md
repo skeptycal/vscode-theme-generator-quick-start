@@ -19,7 +19,7 @@ Make your changes to the colors in `index.ts` and hit `F5` to build the theme an
 
 ## Issues
 
-- dark backgrounds can cause text to appear 'invisible' since the default black text doesn't seem to be replaced consistently by the foreground color chosen in the `index.ts` file
+- Dark backgrounds can cause certain text to appear 'invisible' since the chosen `background` and `foreground` defaults in the `index.ts` file are not replaced consistently
 
 ## Publishing
 
