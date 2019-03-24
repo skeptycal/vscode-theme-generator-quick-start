@@ -1,3 +1,4 @@
+// large standard color list
 const colors = {
     black: '#000000',
     white: '#FFFFFF',

@@ -1,16 +1,25 @@
 # vscode-theme-generator-quick-start
 
-**Clone and run for a quick way to get started with [vscode-theme-generator](https://github.com/Tyriar/vscode-theme-generator).**
+>Based almost entirely on [Tyriar's repo](https://github.com/Tyriar/vscode-theme-generator-quick-start).
+>Updated to include *many* more color choices and a few options.
+
+## Usage
+
+**Clone and run for a quick way to get started with [vscode-theme-generator](https://github.com/skeptycal/vscode-theme-generator).**
 
 ## How to build the theme
 
 You need [NodeJS](https://nodejs.org/en/) installed to run the generator.
 
-```js
+```BASH
 npm install
 ```
 
-Make your changes to the colors in index.ts and hit F5 to build the theme and launch the a new VS Code window with your theme available in the command palette (`ctrl`/`cmd+shift+p` > "Color Theme").
+Make your changes to the colors in `index.ts` and hit `F5` to build the theme and launch the a new VS Code window with your theme available in the command palette (`ctrl`/`cmd+shift+p` > "Color Theme").
+
+## Issues
+
+- Dark backgrounds can cause certain text to appear 'invisible' since the chosen `background` and `foreground` defaults in the `index.ts` file are not replaced consistently
 
 ## Publishing
 
